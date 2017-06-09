@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>商品登録及び閲覧ページ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./task13 control.jsp" method="post">
+            商品登録フォーム(登録したい商品データを入力してください)<br><br>
+            商品名<br>
+            <input type="text" name="name"><br>
+            個数<br>
+            <input type="text" name="number"><br><br>
+            <input type="submit" name="regist" value="登録"><br><br><br>
+            商品一覧表示→
+            <input type="submit" name="print" value="表示"><br><br><br>
+            登録解除フォーム(登録解除したい商品のIDを入力してください)<br>
+            <input type="text" name="number2"><br><br>
+            <input type="submit" name="delete" value="解除">
+        </form>
+    </body>
+</html>
